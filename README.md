@@ -1,5 +1,10 @@
-# image-captioning
+# Image Captioning
 Generating image captions using encoder-decoder deep neural network
+
+<b>Click on the image to open Youtube video</b><br>
+[![IMAGE ALT TEXT HERE](_includes/youtube_ss.jpg)](https://www.youtube.com/watch?v=fblhQTDh7lY)
+
+
 
 ## Contents
 * [Overview](#overview)
@@ -36,8 +41,14 @@ emotion_detection_text_dataset  : contains dataset (both original and after pre 
 <br>
 
 ## Model
+Architechture of the VGG16 model used as encoder<br>
 <p align="center">
-  <img src="model_layers.png" width="400">
+  <img src="_includes/vgg16_layers.png" width="500">
+</p>
+
+Architechture of the LSTM model used as decoder<br>
+<p align="center">
+  <img src="_includes/lstm_layers.png" width="600">
 </p>
 
 ## What did I learn?
