@@ -2,8 +2,7 @@
 Generating image captions using encoder-decoder deep neural network
 
 <b>Click on the image to open Youtube video</b><br>
-[![IMAGE ALT TEXT HERE](_includes/youtube_ss.jpg)](https://www.youtube.com/watch?v=fblhQTDh7lY)
-
+[![IMAGE ALT TEXT HERE](_includes/youtube_ss.png)](https://www.youtube.com/watch?v=fblhQTDh7lY)
 
 
 ## Contents
@@ -28,9 +27,8 @@ Website: [Flickr 8k Dataset](https://www.kaggle.com/datasets/adityajn105/flickr8
 About dataset: A new benchmark collection for sentence-based image description and search, consisting of 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. … The images were chosen from six different Flickr groups, and tend not to contain any well-known people or locations, but were manually selected to depict a variety of scenes and situations
 
 ## Setup
-Windows 10<br>
-python 3.7<br>
-tensorflow-gpu==2.1.0
+Performed on Kaggle Notebook
+
 
 ## Repository files
 emotion_detection_text_dataset  : contains dataset (both original and after pre processing)
@@ -43,7 +41,7 @@ emotion_detection_text_dataset  : contains dataset (both original and after pre 
 ## Model
 Architechture of the VGG16 model used as encoder<br>
 <p align="center">
-  <img src="_includes/vgg16_layers.png" width="500">
+  <img src="_includes/vgg16_layers.png" width="400">
 </p>
 
 Architechture of the LSTM model used as decoder<br>
