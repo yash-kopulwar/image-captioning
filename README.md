@@ -38,7 +38,7 @@ Performed on Kaggle Notebook
 <br>.gitattributes ------------------------- attributes to path names for Git Large File Storage (Git LFS)
 <br>LICENSE ------------------------------ MIT license
 <br>README.md ------------------------- information about the project
-<br>features.p ---------------------------- file containig image features obtained from encoder for each image in the dataset
+<br>features.p ---------------------------- contains image features obtained from encoder for each image in dataset
 <br>image-captioning.ipynb ------------ Python code for training Image Captioning model
 <br>image_captioning_model.h5 ------- saved Image Captioning model
 <br>
@@ -62,4 +62,3 @@ Architechture of the LSTM model used as decoder<br>
 * LSTM
 * text pre-processing and cleaning
 * word embeddings
-* CNN
